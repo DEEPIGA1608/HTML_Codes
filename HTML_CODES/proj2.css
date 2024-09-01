@@ -1,0 +1,68 @@
+html{
+    min-height:100%;
+    background: #c80000;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://as2.ftcdn.net/v2/jpg/02/94/71/81/1000_F_294718149_aIizeIOQuJAK2K79oJ7C0Ck0xTaDTxOu.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding:50px 50px 30px 50px;
+    min-height: 87vh;
+    /* overflow: hidden; */
+}
+::placeholder { 
+    color:black;
+    font-size: medium;
+    opacity: 1;
+}
+input{
+        height: 45px;
+        border-radius: 5px;
+        border-color: black;
+        width: 300px;
+        box-shadow: 4px 4px #0a0909;
+}
+h1{
+        color:white;
+        text-shadow: 0 2px 1px #5cf02f, 
+                    -1px 3px 1px #58f527, 
+                    -2px 5px 1px #35f002;
+}
+button{
+        border-radius: 5px;
+        height: 50px;
+        width: 150px;
+        font-size: medium;
+        box-shadow: 4px 4px #040404;
+}
+#outline{
+    padding:3% 0 0 0; 
+}
+.border{
+    padding-left: 40px;
+}
+h4{
+     font-size:20px;
+     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+#card{
+      background-color:transparent;
+      min-height:40vh;
+      border:2px solid black;
+      padding: 100px -40px 0px 90px;
+}
+#card-content{
+      padding-left: 10px;
+      margin: 10px 10px 0px 10px;
+      display:grid;
+      grid-row-gap:-20px;
+      grid-column-gap:10px;
+      grid-template-columns: repeat(10, 1fr);
+}
+ #card-element{
+     padding: 20px 0;
+     width:50px;
+     height:60px;
+     position: relative;
+}

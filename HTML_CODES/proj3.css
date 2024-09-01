@@ -1,0 +1,43 @@
+body{
+    background-image: url("https://img.freepik.com/premium-vector/blue-gold-abstract-background-modern-minimalist-for-presentation-design-suit-for-business-corporate-institution-party-festive-seminar-and-talks_181182-28515.jpg");
+    background-repeat: no-repeat;
+    background-size: 1290px 590px;
+    color:white;
+    padding-top: 20px;
+}
+#no{
+    color:rgb(22, 20, 20);
+    margin-left:40px;
+    padding-top: 30px;
+    font-size:xx-large;
+}
+label{
+    font-size:larger;
+}
+#top{
+    margin-top: 155px;
+    margin-left: 140px;
+    font-size:x-large;
+}
+#form{
+    text-align: center;
+
+}
+input{
+   height:30px;
+   width:250px;
+}
+button{
+    height:40px;
+    width:100px;
+}
+#round{
+    font-size: larger;
+    vertical-align: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    color:black;
+    font-size: 22px;
+}
